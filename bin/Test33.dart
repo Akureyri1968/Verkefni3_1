@@ -1,5 +1,15 @@
-import 'package:Test33/Test33.dart' as Test33;
+import 'dart:convert';
+import 'dart:math';
+import 'dart:io';
 
-void main(List<String> arguments) {
-  print('Hello world: ${Test33.calculate()}!');
+
+
+void main() {
+
+  int sum = 0;
+for(int i=1; i < 11;  i=i+1){
+  print(i);
+  sum =sum+i;
+}
+print(sum);
 }
